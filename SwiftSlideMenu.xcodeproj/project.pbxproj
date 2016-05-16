@@ -16,6 +16,7 @@
 		AE36B6C51CE9F31D00061761 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36B6C41CE9F31D00061761 /* Interactor.swift */; };
 		AE36B6C71CE9F32F00061761 /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36B6C61CE9F32F00061761 /* MenuHelper.swift */; };
 		AE36B6C91CE9F4FE00061761 /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36B6C81CE9F4FE00061761 /* PresentMenuAnimator.swift */; };
+		AE36B6CB1CEA05EB00061761 /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36B6CA1CEA05EB00061761 /* DismissMenuAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AE36B6C41CE9F31D00061761 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		AE36B6C61CE9F32F00061761 /* MenuHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHelper.swift; sourceTree = "<group>"; };
 		AE36B6C81CE9F4FE00061761 /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentMenuAnimator.swift; sourceTree = "<group>"; };
+		AE36B6CA1CEA05EB00061761 /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissMenuAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				AE36B6C41CE9F31D00061761 /* Interactor.swift */,
 				AE36B6C61CE9F32F00061761 /* MenuHelper.swift */,
 				AE36B6C81CE9F4FE00061761 /* PresentMenuAnimator.swift */,
+				AE36B6CA1CEA05EB00061761 /* DismissMenuAnimator.swift */,
 			);
 			path = SwiftSlideMenu;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				AE36B6AF1CE9E89B00061761 /* AppDelegate.swift in Sources */,
 				AE36B6C31CE9F18100061761 /* MenuViewController.swift in Sources */,
 				AE36B6C51CE9F31D00061761 /* Interactor.swift in Sources */,
+				AE36B6CB1CEA05EB00061761 /* DismissMenuAnimator.swift in Sources */,
 				AE36B6C91CE9F4FE00061761 /* PresentMenuAnimator.swift in Sources */,
 				AE36B6C71CE9F32F00061761 /* MenuHelper.swift in Sources */,
 				AE36B6C11CE9F06600061761 /* HomeViewController.swift in Sources */,
