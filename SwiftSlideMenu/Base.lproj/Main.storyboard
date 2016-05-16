@@ -49,7 +49,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Close"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="358" y="28" width="39" height="30"/>
+                                    <rect key="frame" x="334" y="20" width="66" height="780"/>
                                 </variation>
                                 <connections>
                                     <action selector="closeMenu:" destination="jLa-cy-C2F" eventType="touchUpInside" id="1fg-dI-5bo"/>
