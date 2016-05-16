@@ -17,6 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Dcu-JA-Ias" appends="YES" id="llt-Uw-t4W"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="c4r-4e-Phm">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="XaZ-Lu-cpF">
@@ -30,6 +34,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="Dcu-JA-Ias">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="edgePanGesture:" destination="BYZ-38-t0r" id="9ZA-SG-4k1"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1010" y="-149"/>
         </scene>
@@ -57,6 +67,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="7gT-QA-vAi"/>
@@ -67,9 +78,17 @@
                                 <include reference="7gT-QA-vAi"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8Dn-Ie-3eo" appends="YES" id="2c5-Q0-XU8"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKV-jH-cUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="8Dn-Ie-3eo">
+                    <connections>
+                        <action selector="handleGesture:" destination="jLa-cy-C2F" id="Kad-k0-2z1"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1816.5" y="-149.25"/>
         </scene>
